@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\newtheorem{definition}{Definition}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+\title{Prompt #4: Using BiBTeX}
+\author{Eric Genheimer}
+\date{September 26, 2019}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\section{Calculus 4}
+\subsection{Class Description}
+I took Calculus 4 in the fall of 2017. Calculus 4 extends the concepts encountered in Calculus 1-3 to multivariable functions. In particular, we studied partial derivates and multiple integration. We also looked at some applications of multiple integration, including Green's Theorem and Stokes' Theorem.
+\subsection{Green's Theorem}
+Green's Theorem is an important theorem regarding line integrals. The statement of the theorem is as follows:
+%%
+\[\int_{C}{}f(x,y)dx + g(x,y)dy=\iint_{R}{}\frac{\partial g}{\partial x}+\frac{\partial f}{\partial y}dA \]%\cite{anton2016calculus}
+Green's Theorem has applications in fluid flow. It implies that one need only look at the boundary of a regional to determine how fluid is flowing inside the region.\cite{anton2016calculus}
+\section{Analysis}
+\subsection{Class Description}
+I took analysis in the fall of 2018. Analysis provides the foundation upon which calculus is built. In particular, it provides rigorous meaning for the concept of limits, which are used to find both derivates and integrals in calculus. It also provides several definitions familiar from algebra, including continuity.
+\subsection{Continuity}
+Analysis provdes definitions both for local and global continuity. In particular, the definition for global continuity is as follows:
+\begin{center}
+%\theoremstyle{definition}
+\begin{definition}{Global Continuity}
+A function $f:D\rightarrow \mathbb{R}$ is \emph{continuous on a set $E \subseteq D$} if and only if $f$ is continuous at each point (value of $x$) in E. If $f$ is continuous at every point in its domain, $D$, we simply say that $f$ is \emph{continuous}.
+\cite{kosmala2004friendly}
+\end{definition}
+\end{center}
+%\cite{kosmala2004friendly}
+This means, simply, that a function is continuous if and only if it satisfies the criteria for continuity for each \(x\) value in its domain. 
+\section{Mathematical Statistics}
+\subsection{Course Description}
+I am currently enrolled in Mathematical Statistics. This course covers the basics of statistics and probability, including combinations, permutations, conditional probability, and distributions and related functions. Some of the key formulas in statistics are the formulas for combinations and permutations.
+\subsection{Combinations and Permutations}
+We denote a combination by the symbol \(\textsubscript{n}C\textsubscript{r}\). The formula for a combination is as follows:
+
+
+\[\textsubscript{n}C\textsubscript{r}=\frac{n!}{(n-r)!r!}\]
+
+\noindent We denote a permutation by the symbol \(\displaystyle {n \choose r}\). The formula for a permutation is as follows:
+
+\[{n \choose r}=\frac{n!}{(n-r)!}\]
+%\cite{miller2004john}
+These two formulas are foundational for counting the number of ways objects can be arranged or decisions can be made, both when order does not matter and when order does matter.
+\cite{miller2004john}
+
+\bibliography{books.bib}
+\bibliographystyle{unsrt}
+
+
+
+\end{document}
